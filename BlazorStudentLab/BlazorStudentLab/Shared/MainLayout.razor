@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase  
+
+<div class="bg-dark text-white">
+    <div class="container py-2 d-flex align-items-center justify-content-between">
+        <div class="fw-semibold">Blazor Student Lab</div>
+        <a href="/" class="btn btn-outline-light btn-sm">Главная</a>
+    </div>
+</div>
+
+<div class="container py-4">
+    @Body
+</div>
+
+<footer class="border-top mt-5 py-3">
+    <div class="container text-muted small">
+        © @DateTime.Now.Year — Blazor Student Lab
+    </div>
+</footer>

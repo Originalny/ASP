@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+    Layout = "_Layout";
+}
+<div class="row g-4">
+
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100 position-relative">
+            <div class="card-body">
+                <h5 class="card-title">Курсы</h5>
+                <p class="card-text text-muted">
+                    Список курсов, назначение преподавателей, запись студентов
+                </p>
+
+                <!-- Это настоящая кликабельная ссылка -->
+                <a asp-controller="Courses" asp-action="Index"
+                   class="btn btn-primary">Перейти к курсам</a>
+
+                <!-- Она же, как растянутая по всей карточке зона клика -->
+                <a asp-controller="Courses" asp-action="Index"
+                   class="stretched-link" aria-label="Курсы"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100 position-relative">
+            <div class="card-body">
+                <h5 class="card-title">Студенты</h5>
+                <p class="card-text text-muted">
+                    Управление студентами и их зачислением на курсы
+                </p>
+                <a asp-controller="Students" asp-action="Index"
+                   class="btn btn-primary">Перейти к студентам</a>
+                <a asp-controller="Students" asp-action="Index"
+                   class="stretched-link" aria-label="Студенты"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100 position-relative">
+            <div class="card-body">
+                <h5 class="card-title">Преподаватели</h5>
+                <p class="card-text text-muted">
+                    Назначение преподавателей на курсы
+                </p>
+                <a asp-controller="Teachers" asp-action="Index"
+                   class="btn btn-primary">Перейти к преподавателям</a>
+                <a asp-controller="Teachers" asp-action="Index"
+                   class="stretched-link" aria-label="Преподаватели"></a>
+            </div>
+        </div>
+    </div>
+
+</div>

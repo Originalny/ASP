@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "RSA";
+    Layout = "_Layout";
+}
+
+<h3>RSA (OAEP-SHA256) + Подпись (PKCS#1 SHA-256)</h3>
+
+@if (ViewBag.Error is string err)
+{
+    <div class="alert alert-danger">@err</div>
+}
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <form asp-controller="Crypto" asp-action="RsaEncrypt" method="post">
+            @Html.AntiForgeryToken()
+            <div class="mb-2">
+                <label class="form-label">Публичный ключ (PEM)</label>
+                <textarea class="form-control" name="publicPem" rows="8">@ViewBag.PublicPem</textarea>
+            </div>
+            <div class="mb-2">
+                <label class="form-label">Открытый текст</label>
+                <textarea class="form-control" name="plaintext" rows="3">@ViewBag.Plain</textarea>
+            </div>
+            <button class="btn btn-success">Зашифровать</button>
+        </form>
+
+        <form asp-controller="Crypto" asp-action="RsaVerify" method="post" class="mt-3">
+            @Html.AntiForgeryToken()
+            <div class="mb-2">
+                <label class="form-label">Публичный ключ (PEM)</label>
+                <textarea class="form-control" name="publicPem" rows="6">@ViewBag.PublicPem</textarea>
+            </div>
+            <div class="mb-2">
+                <label class="form-label">Сообщение</label>
+                <textarea class="form-control" name="message" rows="3">@ViewBag.Message</textarea>
+            </div>
+            <div class="mb-2">
+                <label class="form-label">Подпись (Base64)</label>
+                <textarea class="form-control" name="signature" rows="3">@ViewBag.Signature</textarea>
+            </div>
+            <button class="btn btn-primary">Проверить подпись</button>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form asp-controller="Crypto" asp-action="RsaDecrypt" method="post">
+            @Html.AntiForgeryToken()
+            <div class="mb-2">
+                <label class="form-label">Приватный ключ (PEM)</label>
+                <textarea class="form-control" name="privatePem" rows="8">@ViewBag.PrivatePem</textarea>
+            </div>
+            <div class="mb-2">
+                <label class="form-label">Шифртекст (Base64)</label>
+                <textarea class="form-control" name="cipher" rows="3">@ViewBag.Cipher</textarea>
+            </div>
+            <button class="btn btn-warning">Расшифровать</button>
+        </form>
+
+        <form asp-controller="Crypto" asp-action="RsaSign" method="post" class="mt-3">
+            @Html.AntiForgeryToken()
+            <div class="mb-2">
+                <label class="form-label">Приватный ключ (PEM)</label>
+                <textarea class="form-control" name="privatePem" rows="6">@ViewBag.PrivatePem</textarea>
+            </div>
+            <div class="mb-2">
+                <label class="form-label">Сообщение</label>
+                <textarea class="form-control" name="message" rows="3">@ViewBag.Message</textarea>
+            </div>
+            <button class="btn btn-secondary">Подписать</button>
+        </form>
+    </div>
+</div>
+
+@if (ViewBag.Cipher is string c && !string.IsNullOrWhiteSpace(c))
+{
+    <div class="alert alert-secondary mt-3">
+        <strong>Шифртекст (Base64):</strong>
+        <code class="d-block" style="word-break:break-all">@c</code>
+    </div>
+}
+@if (ViewBag.Plain is string p && !string.IsNullOrWhiteSpace(p))
+{
+    <div class="alert alert-info mt-3"><strong>Дешифровано:</strong> @p</div>
+}
+@if (ViewBag.Signature is string s && !string.IsNullOrWhiteSpace(s))
+{
+    <div class="alert alert-secondary mt-3">
+        <strong>Подпись (Base64):</strong>
+        <code class="d-block" style="word-break:break-all">@s</code>
+    </div>
+}
+@if (ViewBag.Valid is bool v)
+{
+    <div class="alert @(v ? "alert-success" : "alert-danger") mt-3">
+        Подпись @(v ? "верна ✅" : "НЕверна ❌")
+    </div>
+}

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\shared\\formcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\shared\\formcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorformlab\\blazorformlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23860DE-4259-45DE-8078-03641D18291E}|BlazorFormLab\\BlazorFormLab.csproj|solutionrelative:blazorformlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Pages\\_Host.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorFormLab\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:17:57.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormComponent.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\FormComponent.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Shared\\FormComponent.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\FormComponent.razor",
+              "RelativeToolTip": "BlazorFormLab\\Shared\\FormComponent.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:16:36.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\Error.cshtml",
+              "RelativeToolTip": "BlazorFormLab\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:15:35.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Pages\\Index.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorFormLab\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:15:21.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\NavMenu.razor*",
+              "RelativeToolTip": "BlazorFormLab\\Shared\\NavMenu.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:14:17.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorFormLab\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:13:53.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\_Imports.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\_Imports.razor*",
+              "RelativeToolTip": "BlazorFormLab\\_Imports.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:13:35.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\App.razor",
+              "RelativeDocumentMoniker": "BlazorFormLab\\App.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\App.razor",
+              "RelativeToolTip": "BlazorFormLab\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:12:47.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorFormLab\\Program.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFormLab\\BlazorFormLab\\Program.cs",
+              "RelativeToolTip": "BlazorFormLab\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:12:23.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

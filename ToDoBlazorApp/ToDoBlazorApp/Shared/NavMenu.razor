@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<nav class="navbar navbar-dark flex-column align-items-stretch p-3">
+    <a class="navbar-brand mb-4" href="">
+        To-Do Blazor
+    </a>
+
+    <ul class="nav nav-pills flex-column">
+        <li class="nav-item mb-1">
+            <NavLink href="" Match="NavLinkMatch.All" class="nav-link">
+                Главная
+            </NavLink>
+        </li>
+
+        <li class="nav-item mb-1">
+            <NavLink href="todo" class="nav-link">
+                To-Do List
+            </NavLink>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,13 @@
+﻿@page
+@model KT7.Pages.Admin.DeleteModel
+@{
+	ViewData["Title"] = "Edit User";
+}
+
+<h2>Delete User</h2>
+<p>Do you want to delete the user @Model.User.Email ?</p>
+<form method="post">
+	<input type="hidden" asp-for="User.Id"/>
+	<button type="submit">Delete</button>
+	<a asp-page="Users">Cancel</a>
+</form>

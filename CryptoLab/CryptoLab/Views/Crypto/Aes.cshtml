@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "AES";
+    Layout = "_Layout";
+}
+<h3>AES-GCM</h3>
+
+@if (ViewBag.Error is string err)
+{
+    <div class="alert alert-danger">@err</div>
+}
+
+<form method="post" asp-controller="Crypto" asp-action="AesEncrypt" class="mb-3">
+    @Html.AntiForgeryToken()
+    <div class="mb-2">
+        <label class="form-label">Ключ (Base64)</label>
+        <input class="form-control" name="key" value="@(ViewBag.Key ?? "")" />
+    </div>
+    <div class="mb-2">
+        <label class="form-label">Открытый текст</label>
+        <textarea class="form-control" name="plaintext" rows="3">@(ViewBag.Plain ?? "")</textarea>
+    </div>
+    <button class="btn btn-success">Зашифровать</button>
+</form>
+
+<form method="post" asp-controller="Crypto" asp-action="AesDecrypt">
+    @Html.AntiForgeryToken()
+    <div class="mb-2">
+        <label class="form-label">Ключ (Base64)</label>
+        <input class="form-control" name="key" value="@(ViewBag.Key ?? "")" />
+    </div>
+    <div class="mb-2">
+        <label class="form-label">Шифртекст (Base64 nonce||tag||ct)</label>
+        <textarea class="form-control" name="cipher" rows="3">@(ViewBag.Cipher ?? "")</textarea>
+    </div>
+    <button class="btn btn-warning">Расшифровать</button>
+</form>
+
+@if (ViewBag.Cipher is string c)
+{
+    <div class="alert alert-secondary mt-3">
+        <div><strong>Шифртекст (Base64):</strong></div>
+        <code class="d-block" style="word-break:break-all">@c</code>
+    </div>
+}
+@if (ViewBag.Plain is string p && !string.IsNullOrWhiteSpace(p))
+{
+    <div class="alert alert-info mt-3"><strong>Дешифровано:</strong> @p</div>
+}

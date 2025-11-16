@@ -1,0 +1,108 @@
+﻿@page "/todo"
+
+<h1>To-Do List</h1>
+
+<p class="text-muted">
+    Добавляйте задачи, отмечайте выполненные и удаляйте лишние.
+</p>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <div class="row g-2 align-items-center">
+            <div class="col-md-8">
+                <input class="form-control"
+                       placeholder="Введите новую задачу..."
+                       @bind="newTitle"
+                       @bind:event="oninput" />
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary w-100"
+                        @onclick="AddTask"
+                        disabled="@IsAddDisabled">
+                    Добавить
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (items.Count == 0)
+{
+    <p class="text-muted">Список задач пуст. Добавьте первую задачу выше.</p>
+}
+else
+{
+    <div class="mb-2 small text-muted">
+        Всего задач: @items.Count,
+        выполнено: @items.Count(i => i.IsDone),
+        осталось: @items.Count(i => !i.IsDone)
+    </div>
+
+    <ul class="list-group">
+        @foreach (var item in items)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           checked="@item.IsDone"
+                           @onclick="() => ToggleDone(item)" />
+
+                    <label class="form-check-label @GetItemCss(item)">
+                        @item.Title
+                    </label>
+                </div>
+
+                <button class="btn btn-outline-danger btn-sm"
+                        title="Удалить задачу"
+                        @onclick="() => RemoveTask(item)">
+                    ✕
+                </button>
+            </li>
+        }
+    </ul>
+}
+
+@code
+{
+    private class TodoItem
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public bool IsDone { get; set; }
+    }
+
+    private readonly List<TodoItem> items = new();
+    private int nextId = 1;
+    private string newTitle = string.Empty;
+
+    private bool IsAddDisabled => string.IsNullOrWhiteSpace(newTitle);
+
+    private void AddTask()
+    {
+        if (IsAddDisabled)
+            return;
+
+        items.Add(new TodoItem
+            {
+                Id = nextId++,
+                Title = newTitle.Trim(),
+                IsDone = false
+            });
+
+        newTitle = string.Empty;
+    }
+
+    private void ToggleDone(TodoItem item)
+    {
+        item.IsDone = !item.IsDone;
+    }
+
+    private void RemoveTask(TodoItem item)
+    {
+        items.Remove(item);
+    }
+
+    private string GetItemCss(TodoItem item)
+        => item.IsDone ? "text-decoration-line-through text-muted" : string.Empty;
+}

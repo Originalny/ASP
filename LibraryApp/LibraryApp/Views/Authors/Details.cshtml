@@ -1,0 +1,32 @@
+﻿@model Author
+@{
+    ViewData["Title"] = "Автор";
+}
+<div class="d-flex justify-content-between align-items-center">
+    <h3>@Model.Name</h3>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Изменить</a>
+        <a asp-action="Index" class="btn btn-secondary">К списку</a>
+    </div>
+</div>
+@if (!string.IsNullOrWhiteSpace(Model.Bio))
+{
+    <p class="mt-3"><strong>Био:</strong> @Model.Bio</p>
+}
+<h5 class="mt-4">Книги автора</h5>
+@if (Model.Books.Any())
+{
+    <ul class="list-group">
+        @foreach (var b in Model.Books.OrderBy(x => x.Title))
+        {
+            <li class="list-group-item d-flex justify-content-between">
+                <span>@b.Title (@b.Year)</span>
+                <a asp-controller="Books" asp-action="Details" asp-route-id="@b.Id" class="btn btn-sm btn-outline-secondary">Открыть</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-info mt-2">Книг пока нет.</div>
+}

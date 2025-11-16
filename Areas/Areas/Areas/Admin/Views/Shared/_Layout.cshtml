@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" asp-area="Admin" asp-controller="Home" asp-action="Index">Админ-панель</a>
+
+            <div class="navbar-nav ms-auto">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a class="nav-link" asp-area="Admin" asp-controller="Users" asp-action="Index">Пользователи</a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="Settings" asp-action="Index">Настройки</a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="Reports" asp-action="Index">Отчёты</a>
+                        <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">Админ-панель</a>
+                    }
+
+                    <form asp-area="Identity" asp-page="/Account/Logout"
+                          asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })"
+                          method="post" class="d-inline">
+                        <button type="submit" class="nav-link btn btn-link text-light">Выйти (@User.Identity?.Name)</button>
+                    </form>
+                }
+                else
+                {
+                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Вход</a>
+                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Регистрация</a>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        @RenderBody()
+    </div>
+
+    <footer class="border-top footer text-muted mt-4">
+        <div class="container">
+            &copy; 2025 - Admin Panel
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

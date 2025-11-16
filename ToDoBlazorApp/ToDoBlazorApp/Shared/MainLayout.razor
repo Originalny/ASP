@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <h1 class="h5 mb-0">Blazor To-Do App</h1>
+        </div>
+
+        <article class="content px-4 py-3">
+            @Body
+        </article>
+
+        <footer class="border-top small text-muted px-4 py-2">
+            © @DateTime.Now.Year — Blazor To-Do List
+        </footer>
+    </main>
+</div>

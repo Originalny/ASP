@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_KT8", "ASP_KT8\ASP_KT8.csproj", "{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBD758A-F0D4-450E-B2F4-E34BCF6BAAD4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\todoblazorapp\\todoblazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33D58670-5976-4521-AE61-A200B256EA8C}|ToDoBlazorApp\\ToDoBlazorApp.csproj|solutionrelative:todoblazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDo.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Pages\\ToDo.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Pages\\ToDo.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Pages\\ToDo.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\Pages\\ToDo.razor",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:16:59.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Pages\\Index.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Pages\\Index.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\Pages\\Index.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:16:03.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Shared\\NavMenu.razor.css",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\NavMenu.razor.css",
+              "RelativeToolTip": "ToDoBlazorApp\\Shared\\NavMenu.razor.css",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T13:15:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:15:25.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Shared\\MainLayout.razor.css",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\MainLayout.razor.css",
+              "RelativeToolTip": "ToDoBlazorApp\\Shared\\MainLayout.razor.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T13:14:59.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:13:47.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\_Imports.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\_Imports.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:13:33.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\App.razor",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\App.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\App.razor",
+              "RelativeToolTip": "ToDoBlazorApp\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T13:13:21.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoBlazorApp\\Program.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\ToDoBlazorApp\\ToDoBlazorApp\\Program.cs",
+              "RelativeToolTip": "ToDoBlazorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T13:12:55.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

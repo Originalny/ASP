@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\shared\\feedbackform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\shared\\feedbackform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorfeedbacklab\\blazorfeedbacklab\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C48CBE3-13F9-4936-BB71-D02645982D6D}|BlazorFeedbackLab\\BlazorFeedbackLab.csproj|solutionrelative:blazorfeedbacklab\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\App.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\App.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\App.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:36:18.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedbackForm.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\FeedbackForm.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\Shared\\FeedbackForm.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\FeedbackForm.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\Shared\\FeedbackForm.razor",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAmwNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:35:18.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\Pages\\Index.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:34:21.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BlazorFeedbackLab\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T12:33:52.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:33:33.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:33:17.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorFeedbackLab\\_Imports.razor",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorFeedbackLab\\BlazorFeedbackLab\\_Imports.razor",
+              "RelativeToolTip": "BlazorFeedbackLab\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T12:32:55.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

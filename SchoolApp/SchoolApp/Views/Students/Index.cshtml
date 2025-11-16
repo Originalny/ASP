@@ -1,0 +1,36 @@
+﻿@model IEnumerable<SchoolApp.Models.Student>
+@{
+    ViewData["Title"] = "Студенты";
+    Layout = "_Layout";
+}
+<h3 class="mb-3">Студенты</h3>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">+ Добавить студента</a>
+</p>
+
+<table class="table table-hover align-middle">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Email</th>
+            <th class="text-center">Курсов</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.Email</td>
+                <td class="text-center">@s.Enrollments.Count</td>
+                <td class="text-end">
+                    <a asp-action="Details" asp-route-id="@s.Id" class="btn btn-sm btn-outline-secondary">Подробнее</a>
+                    <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-sm btn-warning">Изменить</a>
+                    <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-sm btn-danger">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

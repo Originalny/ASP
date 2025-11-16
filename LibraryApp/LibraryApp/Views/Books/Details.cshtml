@@ -1,0 +1,22 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Книга";
+}
+<div class="d-flex justify-content-between align-items-center">
+    <h3>@Model.Title</h3>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Изменить</a>
+        <a asp-action="Index" class="btn btn-secondary">К списку</a>
+    </div>
+</div>
+<dl class="row mt-3">
+    <dt class="col-sm-2">Автор</dt>
+    <dd class="col-sm-10">
+        <a asp-controller="Authors" asp-action="Details" asp-route-id="@Model.AuthorId">
+            @Model.Author?.Name
+        </a>
+    </dd>
+
+    <dt class="col-sm-2">Год</dt>
+    <dd class="col-sm-10">@Model.Year</dd>
+</dl>

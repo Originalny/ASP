@@ -1,0 +1,82 @@
+﻿@code {
+    // Начальные значения формы
+    private string _initialName = "Иван Иванов";
+    private int _initialAge = 20;
+    private string _initialGender = "Мужской";
+
+    // Текущие значения (то, что видит пользователь)
+    private string name;
+    private string ageText;
+    private string gender;
+
+    protected override void OnInitialized()
+    {
+        ResetForm();
+    }
+
+    // Обработчики событий ввода
+    private void OnNameInput(ChangeEventArgs e)
+    {
+        name = e.Value?.ToString() ?? string.Empty;
+    }
+
+    private void OnAgeInput(ChangeEventArgs e)
+    {
+        ageText = e.Value?.ToString() ?? string.Empty;
+    }
+
+    private void OnGenderChange(ChangeEventArgs e)
+    {
+        gender = e.Value?.ToString() ?? "Мужской";
+    }
+
+    // Сброс всех полей к начальному состоянию
+    private void ResetForm()
+    {
+        name = _initialName;
+        ageText = _initialAge.ToString();
+        gender = _initialGender;
+    }
+}
+
+<h3>Форма студента</h3>
+
+<div class="card p-3 mb-3" style="max-width: 420px;">
+    <div class="mb-3">
+        <label class="form-label" for="nameInput">Имя</label>
+        <input id="nameInput"
+               class="form-control"
+               value="@name"
+               @oninput="OnNameInput" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="ageInput">Возраст</label>
+        <input id="ageInput"
+               class="form-control"
+               value="@ageText"
+               @oninput="OnAgeInput" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="genderSelect">Пол</label>
+        <select id="genderSelect"
+                class="form-select"
+                value="@gender"
+                @onchange="OnGenderChange">
+            <option>Мужской</option>
+            <option>Женский</option>
+        </select>
+    </div>
+
+    <button class="btn btn-secondary" @onclick="ResetForm">
+        Сбросить к начальному значению
+    </button>
+</div>
+
+<h4>Введённые данные</h4>
+<ul>
+    <li><strong>Имя:</strong> @name</li>
+    <li><strong>Возраст:</strong> @ageText</li>
+    <li><strong>Пол:</strong> @gender</li>
+</ul>

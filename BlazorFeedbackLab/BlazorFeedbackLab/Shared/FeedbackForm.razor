@@ -1,0 +1,213 @@
+﻿@* Компонент обратной связи с валидацией в режиме реального времени *@
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title">Напишите нам</h5>
+        <p class="card-text text-muted">
+            Заполните форму: имя, email и текст сообщения.
+            Ошибки будут подсвечиваться по мере ввода.
+        </p>
+
+        <!-- Форма -->
+        <div class="mb-3">
+            <label class="form-label">Имя пользователя</label>
+            <input class="form-control"
+                   value="@name"
+                   @oninput="OnNameInput" />
+            @if (!string.IsNullOrEmpty(nameError))
+            {
+                <div class="text-danger small">@nameError</div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input class="form-control"
+                   value="@email"
+                   @oninput="OnEmailInput" />
+            @if (!string.IsNullOrEmpty(emailError))
+            {
+                <div class="text-danger small">@emailError</div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Текст сообщения</label>
+            <textarea class="form-control" rows="4"
+                      @oninput="OnMessageInput">@message</textarea>
+            @if (!string.IsNullOrEmpty(messageError))
+            {
+                <div class="text-danger small">@messageError</div>
+            }
+        </div>
+
+        <!-- Кнопки -->
+        <div class="d-flex gap-2 mb-2">
+            <button class="btn btn-primary"
+                    @onclick="OnSubmit"
+                    disabled="@( !IsFormValid )">
+                Отправить
+            </button>
+
+            <button class="btn btn-outline-secondary"
+                    @onclick="OnClear">
+                Очистить
+            </button>
+        </div>
+
+        <!-- Сообщение об успешной отправке -->
+        @if (showSuccess)
+        {
+            <div class="alert alert-success py-2">
+                Форма отправлена!
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Отображение сохранённых данных -->
+@if (submitted != null)
+{
+    <div class="card mt-3">
+        <div class="card-header">
+            Последнее отправленное сообщение
+        </div>
+        <div class="card-body">
+            <p><strong>Имя:</strong> @submitted.Name</p>
+            <p><strong>Email:</strong> @submitted.Email</p>
+            <p><strong>Сообщение:</strong></p>
+            <pre class="mb-0">@submitted.Message</pre>
+        </div>
+    </div>
+}
+
+@code
+{
+    // Текущие значения полей
+    private string name = string.Empty;
+    private string email = string.Empty;
+    private string message = string.Empty;
+
+    // Сообщения об ошибках
+    private string nameError = string.Empty;
+    private string emailError = string.Empty;
+    private string messageError = string.Empty;
+
+    // Флаг успешной отправки
+    private bool showSuccess = false;
+
+    // Локально сохранённые отправленные данные
+    private FeedbackData? submitted;
+
+    // Форма считается валидной, если нет ошибок и все поля не пусты
+    private bool IsFormValid =>
+        string.IsNullOrEmpty(nameError) &&
+        string.IsNullOrEmpty(emailError) &&
+        string.IsNullOrEmpty(messageError) &&
+        !string.IsNullOrWhiteSpace(name) &&
+        !string.IsNullOrWhiteSpace(email) &&
+        !string.IsNullOrWhiteSpace(message);
+
+    // Обработчики событий ввода (@oninput)
+
+    private void OnNameInput(ChangeEventArgs e)
+    {
+        name = e.Value?.ToString() ?? string.Empty;
+        ValidateName();
+        showSuccess = false;
+    }
+
+    private void OnEmailInput(ChangeEventArgs e)
+    {
+        email = e.Value?.ToString() ?? string.Empty;
+        ValidateEmail();
+        showSuccess = false;
+    }
+
+    private void OnMessageInput(ChangeEventArgs e)
+    {
+        message = e.Value?.ToString() ?? string.Empty;
+        ValidateMessage();
+        showSuccess = false;
+    }
+
+    // Валидация — простая, но достаточная для учебного задания
+
+    private void ValidateName()
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            nameError = "Имя не может быть пустым.";
+        else if (name.Length < 2)
+            nameError = "Имя должно содержать минимум 2 символа.";
+        else
+            nameError = string.Empty;
+    }
+
+    private void ValidateEmail()
+    {
+        if (string.IsNullOrWhiteSpace(email))
+            emailError = "Email не может быть пустым.";
+        else if (!email.Contains('@') || !email.Contains('.'))
+            emailError = "Введите корректный адрес электронной почты.";
+        else
+            emailError = string.Empty;
+    }
+
+    private void ValidateMessage()
+    {
+        if (string.IsNullOrWhiteSpace(message))
+            messageError = "Текст сообщения не может быть пустым.";
+        else if (message.Length < 10)
+            messageError = "Сообщение должно содержать минимум 10 символов.";
+        else
+            messageError = string.Empty;
+    }
+
+    // Нажатие кнопки "Отправить"
+    private void OnSubmit()
+    {
+        // на всякий случай проверяем ещё раз
+        ValidateName();
+        ValidateEmail();
+        ValidateMessage();
+
+        if (!IsFormValid)
+        {
+            showSuccess = false;
+            return;
+        }
+
+        // Сохраняем данные в локальную переменную
+        submitted = new FeedbackData
+            {
+                Name = name,
+                Email = email,
+                Message = message
+            };
+
+        // Показываем сообщение об успехе
+        showSuccess = true;
+    }
+
+    // Нажатие кнопки "Очистить"
+    private void OnClear()
+    {
+        name = string.Empty;
+        email = string.Empty;
+        message = string.Empty;
+
+        nameError = string.Empty;
+        emailError = string.Empty;
+        messageError = string.Empty;
+
+        showSuccess = false;
+    }
+
+    // Внутренний класс для хранения данных
+    private class FeedbackData
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Message { get; set; } = string.Empty;
+    }
+}

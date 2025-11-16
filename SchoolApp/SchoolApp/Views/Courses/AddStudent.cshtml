@@ -1,0 +1,20 @@
+﻿@model SchoolApp.Models.CourseStudent
+@{
+    ViewData["Title"] = "Добавить студента";
+    Layout = "_Layout";
+    var course = ViewBag.Course as SchoolApp.Models.Course;
+}
+<h3>Добавить студента на «@course!.Title»</h3>
+<form method="post" class="mt-3">
+    <input type="hidden" asp-for="CourseId" />
+    <div class="mb-3">
+        <label class="form-label">Студент</label>
+        <select asp-for="StudentId" class="form-select" asp-items="ViewBag.Students"></select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Дата зачисления</label>
+        <input asp-for="EnrollmentDate" type="date" class="form-control" />
+    </div>
+    <button class="btn btn-primary">Зачислить</button>
+    <a asp-action="Details" asp-route-id="@course.Id" class="btn btn-link">Отмена</a>
+</form>

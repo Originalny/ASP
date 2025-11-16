@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\views\\crypto\\rsa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\views\\crypto\\rsa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\views\\crypto\\hash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\views\\crypto\\hash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\views\\crypto\\aes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\views\\crypto\\aes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\controllers\\api\\cryptoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\controllers\\api\\cryptoapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\models\\aesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\models\\aesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\cryptolab\\cryptolab\\services\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94FB33-10F2-410A-9ED2-E6EEDADC178B}|CryptoLab\\CryptoLab.csproj|solutionrelative:cryptolab\\services\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AesVm.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Models\\AesVm.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Models\\AesVm.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Models\\AesVm.cs",
+              "RelativeToolTip": "CryptoLab\\Models\\AesVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:54:05.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rsa.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Rsa.cshtml",
+              "RelativeDocumentMoniker": "CryptoLab\\Views\\Crypto\\Rsa.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Rsa.cshtml",
+              "RelativeToolTip": "CryptoLab\\Views\\Crypto\\Rsa.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:11:00.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aes.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Aes.cshtml",
+              "RelativeDocumentMoniker": "CryptoLab\\Views\\Crypto\\Aes.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Aes.cshtml",
+              "RelativeToolTip": "CryptoLab\\Views\\Crypto\\Aes.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:09:26.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hash.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Hash.cshtml",
+              "RelativeDocumentMoniker": "CryptoLab\\Views\\Crypto\\Hash.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Crypto\\Hash.cshtml",
+              "RelativeToolTip": "CryptoLab\\Views\\Crypto\\Hash.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:08:43.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CryptoLab\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CryptoLab\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:07:54.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CryptoLab\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CryptoLab\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T17:07:05.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CryptoApiController.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\Api\\CryptoApiController.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Controllers\\Api\\CryptoApiController.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\Api\\CryptoApiController.cs",
+              "RelativeToolTip": "CryptoLab\\Controllers\\Api\\CryptoApiController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:05:19.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Controllers\\CryptoController.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "CryptoLab\\Controllers\\CryptoController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:02:13.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CryptoLab\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:00:47.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Program.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Program.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Program.cs",
+              "RelativeToolTip": "CryptoLab\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:53:28.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CryptoService.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Services\\CryptoService.cs",
+              "RelativeDocumentMoniker": "CryptoLab\\Services\\CryptoService.cs",
+              "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\CryptoLab\\CryptoLab\\Services\\CryptoService.cs",
+              "RelativeToolTip": "CryptoLab\\Services\\CryptoService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:58:51.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

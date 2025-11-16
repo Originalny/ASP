@@ -1,0 +1,70 @@
+﻿@namespace SalesChartModule
+@using Microsoft.AspNetCore.Components
+
+<div class="sales-chart-container card">
+    <div class="card-body">
+        <h5 class="card-title">
+            Годовые продажи: @Year г.
+        </h5>
+
+        <p class="card-text text-muted">
+            Данные сгенерированы в модуле <code>SalesChartModule</code>.
+            Высота каждого столбца пропорциональна объёму продаж.
+        </p>
+
+        <div class="sales-chart-bars">
+            @foreach (var point in _data)
+            {
+                <div class="sales-chart-bar-wrap">
+                    <div class="sales-chart-bar"
+                         style="height:@point.HeightPx"
+                         title="@($"{point.Month}: {point.Value} тыс. ед.")">
+                    </div>
+                    <div class="sales-chart-month">
+                        @point.ShortMonth
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="mt-3">
+            <strong>Всего продаж:</strong> @_data.Sum(d => d.Value) тыс. ед.
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int Year { get; set; } = DateTime.Now.Year;
+
+    private readonly List<SalesPoint> _data = new();
+
+    protected override void OnParametersSet()
+    {
+        _data.Clear();
+
+        // Для примера генерируем псевдослучайные данные,
+        // зависящие от года, чтобы график менялся
+        var rng = new Random(Year);
+
+        string[] months = new[]
+        {
+            "Январь","Февраль","Март","Апрель","Май","Июнь",
+            "Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"
+        };
+
+        foreach (var m in months)
+        {
+            int value = rng.Next(20, 100); // тысяч единиц
+            _data.Add(new SalesPoint(m, value));
+        }
+    }
+
+    private sealed record SalesPoint(string Month, int Value)
+    {
+        public string ShortMonth => Month.Substring(0, 3);
+
+        // Для красоты масштабируем высоту: 1 единица = 3 px
+        public string HeightPx => $"{Value * 3}px";
+    }
+}

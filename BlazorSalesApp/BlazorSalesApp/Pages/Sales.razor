@@ -1,0 +1,98 @@
+﻿@page "/sales"
+
+@using System.Reflection
+
+<h3>График продаж</h3>
+
+<p class="text-muted">
+    Компонент графика подключается динамически через <code>DynamicComponent</code>.
+    Можно менять год — график будет обновляться.
+</p>
+
+<div class="mb-3">
+    <label class="form-label">Год:</label>
+    <select class="form-select"
+            @bind="_year"
+            @bind:after="OnYearChanged">
+        @foreach (var y in _years)
+        {
+            <option value="@y">@y</option>
+        }
+    </select>
+</div>
+
+@if (_isLoading)
+{
+    <div class="alert alert-info">Подготовка модуля графика...</div>
+}
+else if (_error is not null)
+{
+    <div class="alert alert-danger">
+        Ошибка при загрузке модуля: @_error
+    </div>
+}
+else if (_chartType is not null)
+{
+    <DynamicComponent Type="_chartType" Parameters="_parameters" />
+}
+
+@code {
+    private Type? _chartType;
+    private bool _isLoading = true;
+    private string? _error;
+
+    private int _year = DateTime.Now.Year;
+    private readonly int[] _years = new[] { 2022, 2023, 2024, 2025 };
+
+    private readonly Dictionary<string, object?> _parameters =
+        new(StringComparer.OrdinalIgnoreCase);
+
+    protected override void OnInitialized()
+    {
+        LoadChartComponent();
+    }
+
+    private void LoadChartComponent()
+    {
+        _isLoading = true;
+        _error = null;
+
+        try
+        {
+            // Берём уже загруженную в приложение сборку с графиком.
+            // Если график лежит в отдельной библиотеке SalesChartModule,
+            // здесь будет её тип. Если в этом же проекте —
+            // можешь использовать typeof(ЛюбойКомпонентИзЭтойСборки).Assembly.
+            var asm = Assembly.Load("SalesChartModule"); // или typeof(YourChart).Assembly
+
+            _chartType = asm.GetType("SalesChartModule.SalesChartComponent");
+            if (_chartType is null)
+            {
+                _error = "Компонент SalesChartComponent не найден в сборке.";
+                return;
+            }
+
+            // начальный параметр
+            _parameters["Year"] = _year;
+        }
+        catch (Exception ex)
+        {
+            _error = ex.Message;
+        }
+        finally
+        {
+            _isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private void OnYearChanged()
+    {
+        // @bind уже записал новое значение в _year
+        if (_chartType is null)
+            return;
+
+        _parameters["Year"] = _year;
+        StateHasChanged();
+    }
+}

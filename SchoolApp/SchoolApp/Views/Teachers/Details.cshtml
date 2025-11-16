@@ -1,0 +1,44 @@
+﻿@model SchoolApp.Models.Teacher
+@{
+    ViewData["Title"] = "Преподаватель — детали";
+    Layout = "_Layout";
+}
+
+<h3 class="mb-3">Преподаватель</h3>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Имя</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+        </dl>
+    </div>
+</div>
+
+<h5 class="mt-4">Курсы преподавателя</h5>
+@if (Model.Courses != null && Model.Courses.Any())
+{
+    <ul class="list-group mb-3">
+        @foreach (var c in Model.Courses)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a asp-controller="Courses" asp-action="Details" asp-route-id="@c.Id">
+                    @c.Title
+                </a>
+                <span class="badge text-bg-secondary">ID: @c.Id</span>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-light">Пока нет назначенных курсов.</div>
+}
+
+<div class="d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Изменить</a>
+    <a asp-action="Index" class="btn btn-outline-secondary">Назад к списку</a>
+</div>

@@ -1,0 +1,15 @@
+﻿@page
+@model KT7.Pages.Admin.EditModel
+@{
+	ViewData["Title"] = "Edit User";
+}
+
+<h2>Edit User</h2>
+<form method="post">
+	<input type="hidden" asp-for="User.Id" />
+	<div>
+		<label>Email:</label>
+		<input asp-for="User.Email"/>
+	</div>
+	<button type="submit">Save</button>
+</form>

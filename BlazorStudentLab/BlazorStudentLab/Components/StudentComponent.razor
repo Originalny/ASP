@@ -1,0 +1,51 @@
+﻿@* Components/StudentComponent.razor *@
+<div class="card shadow-sm mb-3" style="max-width: 420px;">
+    <div class="card-body">
+        <h5 class="card-title">Студент</h5>
+
+        <p class="mb-1">
+            Имя: <strong>@Name</strong>
+        </p>
+
+        <p class="mb-3">
+            Возраст: <strong>@_currentAge</strong> лет
+        </p>
+
+        <button class="btn btn-sm btn-primary me-2" @onclick="IncreaseAge">
+            +1 год
+        </button>
+
+        <button class="btn btn-sm btn-outline-secondary" @onclick="ResetAge">
+            Сбросить
+        </button>
+    </div>
+</div>
+
+@code {
+    // 1) Параметры, которые приходят снаружи (из Index.razor)
+    [Parameter] public string Name { get; set; } = string.Empty;
+
+    // начальный возраст по заданию называется Age
+    [Parameter] public int Age { get; set; }
+
+    // 2) Внутреннее состояние компонента
+    private int _initialAge;   // то, что пришло в Age
+    private int _currentAge;   // то, что сейчас отображаем
+    private bool _initialized; // чтобы не сбрасывать при каждом рендере
+
+    // 3) Один раз инициализируем возраст, когда пришли параметры
+    protected override void OnParametersSet()
+    {
+        if (!_initialized)
+        {
+            _initialAge = Age;
+            _currentAge = Age;
+            _initialized = true;
+        }
+    }
+
+    // 4) Логика кнопок
+    private void IncreaseAge() => _currentAge++;
+
+    private void ResetAge() => _currentAge = _initialAge;
+}

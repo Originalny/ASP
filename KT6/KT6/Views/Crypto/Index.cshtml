@@ -1,0 +1,51 @@
+﻿@page
+@model KT6.Models.CryptoModel
+
+@if (Model == null)
+{
+	<div>Model is null</div>
+}
+else {
+	<div>Model is ok</div>
+}
+
+<form asp-action="Index" method="post">
+	<label>Enter text for encryption:</label>
+	<input type="text" name="UserInput" value="@Model.UserInput" style="width: 300px;"/>
+	<br /><br />
+
+	<label>Chose algorythm:</label>
+	<select name="Algorythm">
+		<option value="AES" @(Model.Algorythm == "AES" ? "select" : "")>AES</option>
+		<option value="RSA" @(Model.Algorythm == "RSA" ? "select" : "")>RSA</option>
+	</select>
+	<br /><br />
+
+	<label>Key (for AES leave empty for auto-gen):</label>
+	<input type="text" name="Key" value="@Model.Key" style="width: 300px;"/>
+	<br /><br />
+
+	<button type="submit">Encrypt/Decrypt</button>
+</form>
+
+@if (Model != null && Model.EncryptedText != null)
+{
+	<div style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
+		<b>Encrypted text:</b>
+		<div style="word-break: break-all;">@Model.EncryptedText</div>
+		<br />
+		<b>Decrypted text:</b>
+		<div>@Model.DecryptedText</div>
+		<br />
+
+		@if (Model.Algorythm == "RSA")
+		{
+			<b>Public key:</b>
+			<div style ="word-break: break-all;">@Model.PublicKey</div>
+			<br />
+			<b>Pivate key:</b>
+			<div style="word-break: break-all;">@Model.PrivateKey</div>
+			<br />
+		}
+	</div>
+}

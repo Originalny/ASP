@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Хэширование";
+    Layout = "_Layout";
+    string algo = (string)(ViewBag.Algorithm ?? "SHA256");
+}
+
+<h3>Хэширование</h3>
+
+@if (ViewBag.Error is string err)
+{
+    <div class="alert alert-danger">@err</div>
+}
+
+<form asp-controller="Crypto" asp-action="Hash" method="post" class="row g-3">
+    @Html.AntiForgeryToken()
+    <div class="col-12">
+        <label class="form-label">Текст</label>
+        <textarea name="input" class="form-control" rows="4">@ViewBag.Input</textarea>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Алгоритм</label>
+        <select class="form-select" name="algorithm">
+            @foreach (var a in new[] { "SHA1", "SHA256", "SHA384", "SHA512", "MD5" })
+            {
+                <option value="@a" selected="@(a == algo)">@a</option>
+            }
+        </select>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary">Посчитать</button>
+    </div>
+</form>
+
+@if (ViewBag.Result is string hex && !string.IsNullOrWhiteSpace(hex))
+{
+    <div class="alert alert-secondary mt-3">
+        <strong>HEX:</strong>
+        <code class="d-block" style="word-break: break-all">@hex</code>
+    </div>
+}

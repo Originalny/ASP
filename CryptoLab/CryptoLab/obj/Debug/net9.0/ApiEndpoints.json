@@ -1,0 +1,146 @@
+[
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "AesDecrypt",
+    "RelativePath": "api/crypto/aes/decrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BAesReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "AesEncrypt",
+    "RelativePath": "api/crypto/aes/encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BAesReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "AesKey",
+    "RelativePath": "api/crypto/aes/key",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bits",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "Hash",
+    "RelativePath": "api/crypto/hash",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BHashReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "RsaDecrypt",
+    "RelativePath": "api/crypto/rsa/decrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BRsaDecReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "RsaEncrypt",
+    "RelativePath": "api/crypto/rsa/encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BRsaEncReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "RsaKeys",
+    "RelativePath": "api/crypto/rsa/keypair",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "RsaSign",
+    "RelativePath": "api/crypto/rsa/sign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BRsaSignReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoLab.Controllers.Api.CryptoApiController",
+    "Method": "RsaVerify",
+    "RelativePath": "api/crypto/rsa/verify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CryptoLab.Controllers.Api.CryptoApiController\u002BRsaVerifyReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

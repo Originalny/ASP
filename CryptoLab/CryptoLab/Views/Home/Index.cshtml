@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+    Layout = "_Layout";
+}
+
+<div class="p-4 bg-light rounded-3">
+    <h1 class="h3 mb-4">КТ 9 — криптография (.NET 9)</h1>
+
+    <div class="d-flex flex-column gap- 2">
+        <a href="/Crypto/Hash" asp-controller="Crypto" asp-action="Hash" class="btn btn-primary">
+            🔐 Хэширование (SHA-1/256/384/512, MD5)
+        </a>
+
+        <a href="/Crypto/Aes" asp-controller="Crypto" asp-action="Aes" class="btn btn-success">
+            🔒 Симметричное шифрование AES-GCM (ключ в Base64)
+        </a>
+
+        <a href="/Crypto/Rsa" asp-controller="Crypto" asp-action="Rsa" class="btn btn-warning text-dark">
+            🧮 Асимметричное RSA: шифр/дешифр + подпись/проверка
+        </a>
+    </div>
+
+    <p class="mt-4 mb-0">
+        REST API: <code>/api/crypto/*</code>
+    </p>
+</div>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<UserProfileApp.Models.UserProfile>
+@{
+    ViewData["Title"] = "Профили пользователей";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3 class="mb-0">Список профилей</h3>
+    <a asp-action="Create" class="btn btn-primary">Добавить профиль</a>
+</div>
+
+@if (!Model.Any())
+{
+        <div class="alert alert-info">Профили ещё не созданы.</div>
+}
+else
+{
+        <div class="table-responsive">
+            <table class="table table-striped align-middle">
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Bio</th>
+                        <th>Дата рождения</th>
+                        <th>Пользователь</th>
+                        <th class="text-end">Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var p in Model)
+                {
+                        <tr>
+                            <td>@p.FullName</td>
+                            <td>@p.Bio</td>
+                            <td>@p.BirthDate?.ToShortDateString()</td>
+                            <td>@p.User?.Username</td>
+                            <td class="text-end">
+                                <a asp-action="Details" asp-route-id="@p.Id" class="btn btn-sm btn-outline-secondary">Подробнее</a>
+                                <a asp-action="Edit" asp-route-id="@p.Id" class="btn btn-sm btn-warning">Изменить</a>
+                                <a asp-action="Delete" asp-route-id="@p.Id" class="btn btn-sm btn-danger">Удалить</a>
+                            </td>
+                        </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+}

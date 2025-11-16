@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\asp_kt8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\asp_kt8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\data\\iuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\data\\iuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\data\\inmemoryuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\data\\inmemoryuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\views\\shared\\_validationscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\views\\shared\\_validationscriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\views\\registration\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\views\\registration\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|c:\\users\\soma\\source\\repos\\asp_kt8\\asp_kt8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28790673-B5C9-4CE5-BC88-1B8A17ECBE48}|ASP_KT8\\ASP_KT8.csproj|solutionrelative:asp_kt8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ASP_KT8",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\ASP_KT8.csproj",
+              "RelativeDocumentMoniker": "ASP_KT8\\ASP_KT8.csproj",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\ASP_KT8.csproj",
+              "RelativeToolTip": "ASP_KT8\\ASP_KT8.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-19T18:52:40.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\appsettings.json",
+              "RelativeDocumentMoniker": "ASP_KT8\\appsettings.json",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\appsettings.json",
+              "RelativeToolTip": "ASP_KT8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T18:19:55.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ASP_KT8\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:10:18.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Shared\\_ValidationScriptPartial.cshtml",
+              "RelativeDocumentMoniker": "ASP_KT8\\Views\\Shared\\_ValidationScriptPartial.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Shared\\_ValidationScriptPartial.cshtml",
+              "RelativeToolTip": "ASP_KT8\\Views\\Shared\\_ValidationScriptPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T17:18:42.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Registration\\Success.cshtml",
+              "RelativeDocumentMoniker": "ASP_KT8\\Views\\Registration\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Registration\\Success.cshtml",
+              "RelativeToolTip": "ASP_KT8\\Views\\Registration\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T17:15:16.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Registration\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP_KT8\\Views\\Registration\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Registration\\Index.cshtml",
+              "RelativeToolTip": "ASP_KT8\\Views\\Registration\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T16:46:50.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASP_KT8\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASP_KT8\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T16:36:34.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASP_KT8\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASP_KT8\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T16:15:28.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ToolsController.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\ToolsController.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Controllers\\ToolsController.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\ToolsController.cs",
+              "RelativeToolTip": "ASP_KT8\\Controllers\\ToolsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:59:11.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ASP_KT8\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:21:46.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "ASP_KT8\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA7wBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:07:44.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASP_KT8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:05:31.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\Dtos.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Models\\Dtos.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\Dtos.cs",
+              "RelativeToolTip": "ASP_KT8\\Models\\Dtos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABQwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:58:54.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Models\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\RegisterVM.cs",
+              "RelativeToolTip": "ASP_KT8\\Models\\RegisterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:56:12.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Models\\User.cs",
+              "RelativeToolTip": "ASP_KT8\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T17:39:23.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InMemoryUserStore.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\InMemoryUserStore.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Data\\InMemoryUserStore.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\InMemoryUserStore.cs",
+              "RelativeToolTip": "ASP_KT8\\Data\\InMemoryUserStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T17:22:18.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserStore.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\IUserStore.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Data\\IUserStore.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Data\\IUserStore.cs",
+              "RelativeToolTip": "ASP_KT8\\Data\\IUserStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T17:16:38.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Program.cs",
+              "RelativeDocumentMoniker": "ASP_KT8\\Program.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\ASP_KT8\\ASP_KT8\\Program.cs",
+              "RelativeToolTip": "ASP_KT8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T16:40:00.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

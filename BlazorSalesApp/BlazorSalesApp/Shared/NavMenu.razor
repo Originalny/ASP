@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<div class="nav-menu p-3">
+    <div class="mb-3 text-white fw-semibold">
+        Навигация
+    </div>
+
+    <NavLink href="" Match="NavLinkMatch.All" class="nav-link">
+        <span class="oi oi-home me-1" aria-hidden="true"></span>
+        Главная
+    </NavLink>
+
+    <NavLink href="sales" class="nav-link">
+        📈 График продаж
+    </NavLink>
+</div>
+
+<style>
+    .nav-menu .nav-link {
+        display: block;
+        color: #dee2e6;
+        padding: .35rem 0;
+        text-decoration: none;
+        font-size: .95rem;
+    }
+
+        .nav-menu .nav-link.active {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .nav-menu .nav-link:hover {
+            color: #fff;
+        }
+</style>

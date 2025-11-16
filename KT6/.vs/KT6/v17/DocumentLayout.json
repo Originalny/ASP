@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Soma\\source\\repos\\KT6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|c:\\users\\soma\\source\\repos\\kt6\\kt6\\models\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|solutionrelative:kt6\\models\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|c:\\users\\soma\\source\\repos\\kt6\\kt6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|solutionrelative:kt6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|c:\\users\\soma\\source\\repos\\kt6\\kt6\\views\\crypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|solutionrelative:kt6\\views\\crypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|c:\\users\\soma\\source\\repos\\kt6\\kt6\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB1DAEF-8BB4-406E-AFF0-FDA153800430}|KT6\\KT6.csproj|solutionrelative:kt6\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Views\\Crypto\\Index.cshtml",
+              "RelativeDocumentMoniker": "KT6\\Views\\Crypto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Views\\Crypto\\Index.cshtml",
+              "RelativeToolTip": "KT6\\Views\\Crypto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T10:08:23.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Program.cs",
+              "RelativeDocumentMoniker": "KT6\\Program.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Program.cs",
+              "RelativeToolTip": "KT6\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:42:34.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "KT6\\Controllers\\CryptoController.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "KT6\\Controllers\\CryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:23:14.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Models\\CryptoModel.cs",
+              "RelativeDocumentMoniker": "KT6\\Models\\CryptoModel.cs",
+              "ToolTip": "C:\\Users\\Soma\\source\\repos\\KT6\\KT6\\Models\\CryptoModel.cs",
+              "RelativeToolTip": "KT6\\Models\\CryptoModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:16:49.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

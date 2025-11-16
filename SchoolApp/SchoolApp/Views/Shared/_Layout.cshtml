@@ -1,0 +1,65 @@
+﻿@{
+    var title = ViewData["Title"] as string ?? "SchoolApp";
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@title — SchoolApp</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="bg-light">
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-semibold" asp-controller="Home" asp-action="Index">SchoolApp</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                        aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="nav" class="collapse navbar-collapse">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">SchoolApp</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Courses" asp-action="Index">Курсы</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Students" asp-action="Index">Студенты</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Teachers" asp-action="Index">Преподаватели</a></li>
+                        </ul>
+                        <a class="btn btn-outline-light" asp-controller="Home" asp-action="Index">Главная</a>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <a asp-controller="Courses" asp-action="Create" class="btn btn-success btn-sm">
+                            + Курс
+                        </a>
+                        <a asp-controller="Students" asp-action="Create" class="btn btn-outline-light btn-sm">
+                            + Студент
+                        </a>
+                        <a asp-controller="Teachers" asp-action="Create" class="btn btn-outline-light btn-sm">
+                            + Преподаватель
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top mt-5 py-3 bg-white">
+        <div class="container small text-muted">
+            © @DateTime.Now.Year — SchoolApp
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

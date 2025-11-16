@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<(IdentityUser User, IList<string> Roles)>
+
+@{
+    ViewData["Title"] = "Пользователи";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Создать</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Роли</th>
+            <th style="width:220px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var row in Model)
+        {
+            <tr>
+                <td>@row.User.Email</td>
+                <td>@string.Join(", ", row.Roles)</td>
+                <td>
+                    <a class="btn btn-sm btn-secondary" asp-action="Edit" asp-route-id="@row.User.Id">Изменить</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@row.User.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

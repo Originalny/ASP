@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ToDoBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ToDoBlazorApp.bcsw4tglul.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\ToDoBlazorApp\\ToDoBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ToDoBlazorApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ToDoBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ToDoBlazorApp.props",
+      "PackagePath": "build\\ToDoBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDoBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\ToDoBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ToDoBlazorApp.props",
+      "PackagePath": "buildTransitive\\ToDoBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

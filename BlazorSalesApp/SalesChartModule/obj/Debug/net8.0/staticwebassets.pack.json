@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\BlazorSalesApp\\SalesChartModule\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\BlazorSalesApp\\SalesChartModule\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalesChartModule.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalesChartModule.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SalesChartModule.props",
+      "PackagePath": "build\\SalesChartModule.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SalesChartModule.props",
+      "PackagePath": "buildMultiTargeting\\SalesChartModule.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SalesChartModule.props",
+      "PackagePath": "buildTransitive\\SalesChartModule.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

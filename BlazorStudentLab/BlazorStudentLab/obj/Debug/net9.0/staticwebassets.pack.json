@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Downloads\\Курсовая Обмен сообщениями\\BlazorStudentLab\\BlazorStudentLab\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorStudentLab.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorStudentLab.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BlazorStudentLab.props",
+      "PackagePath": "build\\BlazorStudentLab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorStudentLab.props",
+      "PackagePath": "buildMultiTargeting\\BlazorStudentLab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BlazorStudentLab.props",
+      "PackagePath": "buildTransitive\\BlazorStudentLab.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
