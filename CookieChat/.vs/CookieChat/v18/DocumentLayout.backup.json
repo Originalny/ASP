@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\layouts\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\layouts\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\shared\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\components\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\components\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|c:\\users\\soma\\desktop\\asp\\cookiechat\\cookiechat\\data\\inmemoryuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A179CB3E-6F08-4FC4-8C40-611F8675E48E}|CookieChat\\CookieChat.csproj|solutionrelative:cookiechat\\data\\inmemoryuserstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Layouts\\Component.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Layouts\\Component.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Layouts\\Component.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Layouts\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\_Imports.razor",
+              "RelativeToolTip": "CookieChat\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\App.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\App.razor",
+              "RelativeToolTip": "CookieChat\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chat.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Chat.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\Chat.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Chat.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\Chat.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Program.cs",
+              "RelativeDocumentMoniker": "CookieChat\\Program.cs",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Program.cs",
+              "RelativeToolTip": "CookieChat\\Program.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:11:48.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "CookieChat\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "CookieChat\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:11:48.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "CookieChat\\Components\\Pages\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDisplay.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\LoginDisplay.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Shared\\LoginDisplay.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\LoginDisplay.razor",
+              "RelativeToolTip": "CookieChat\\Shared\\LoginDisplay.razor",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Component.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Components\\Component.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Components\\Component.razor",
+              "RelativeToolTip": "CookieChat\\Components\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CookieChat\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\_ViewImports.cshtml",
+              "RelativeToolTip": "CookieChat\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "CookieChat\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CookieChat\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "CookieChat\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T12:11:48.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CookieChat\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Services\\AuthService.cs",
+              "RelativeToolTip": "CookieChat\\Services\\AuthService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:11:48.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InMemoryUserStore.cs",
+              "DocumentMoniker": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Data\\InMemoryUserStore.cs",
+              "RelativeDocumentMoniker": "CookieChat\\Data\\InMemoryUserStore.cs",
+              "ToolTip": "C:\\Users\\Soma\\Desktop\\ASP\\CookieChat\\CookieChat\\Data\\InMemoryUserStore.cs",
+              "RelativeToolTip": "CookieChat\\Data\\InMemoryUserStore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:11:48.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

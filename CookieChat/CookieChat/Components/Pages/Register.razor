@@ -1,0 +1,19 @@
+﻿@page "/register"
+
+<h1>Регистрация</h1>
+
+<form method="post" action="/api/register">
+    <div>
+        <label>Имя пользователя</label><br />
+        <input name="username" />
+    </div>
+
+    <div style="margin-top:8px;">
+        <label>Пароль</label><br />
+        <input type="password" name="password" />
+    </div>
+
+    <div style="margin-top:8px;">
+        <button type="submit">Зарегистрироваться</button>
+    </div>
+</form>

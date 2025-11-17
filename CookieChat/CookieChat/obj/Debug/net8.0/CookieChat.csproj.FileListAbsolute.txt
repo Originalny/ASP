@@ -1,0 +1,81 @@
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.AssemblyReference.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.AssemblyInfoInputs.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.AssemblyInfo.cs
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.CoreCompileInputs.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.MvcApplicationPartsAssemblyInfo.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.RazorAssemblyInfo.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.RazorAssemblyInfo.cs
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\appsettings.Development.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\appsettings.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.staticwebassets.runtime.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.staticwebassets.endpoints.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.exe
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.deps.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.runtimeconfig.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.pdb
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\bundle\CookieChat.styles.css
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\projectbundle\CookieChat.bundle.scp.css
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.build.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.development.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets\msbuild.CookieChat.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets\msbuild.CookieChat.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets\msbuild.build.CookieChat.props
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CookieChat.props
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CookieChat.props
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.Up2Date
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\refint\CookieChat.dll
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.pdb
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.genruntimeconfig.cache
+D:\Downloads\Курсовая Обмен сообщениями\CookieChat\CookieChat\obj\Debug\net8.0\ref\CookieChat.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\appsettings.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.staticwebassets.runtime.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.staticwebassets.endpoints.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.exe
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.deps.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.runtimeconfig.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\CookieChat.pdb
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.AssemblyReference.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.AssemblyInfoInputs.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.AssemblyInfo.cs
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.CoreCompileInputs.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.RazorAssemblyInfo.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.RazorAssemblyInfo.cs
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.sourcelink.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\bundle\CookieChat.styles.css
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\scopedcss\projectbundle\CookieChat.bundle.scp.css
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.csproj.Up2Date
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\refint\CookieChat.dll
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.pdb
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\CookieChat.genruntimeconfig.cache
+C:\Users\Soma\Desktop\ASP\CookieChat\CookieChat\obj\Debug\net8.0\ref\CookieChat.dll

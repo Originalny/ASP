@@ -1,0 +1,85 @@
+﻿@page "/chat"
+@attribute [Authorize]
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Navigation
+@inject IHttpContextAccessor HttpContextAccessor
+
+<h1>Чат</h1>
+
+@if (!isAuth)
+{
+    <p>Вы не авторизованы. <a href="/login">Войти</a></p>
+}
+else if (!IsConnected)
+{
+    <p><em>Подключение к чату...</em></p>
+}
+else
+{
+    <div>Вы вошли как <strong>@userName</strong></div>
+
+    <div style="margin-top:10px;">
+        <input style="width:300px;" @bind="messageText" />
+        <button @onclick="SendAsync">Отправить</button>
+    </div>
+
+    <div style="margin-top:10px; border:1px solid #ccc; height:250px; overflow-y:auto;">
+        @foreach (var msg in messages)
+        {
+            <div>
+                <strong>@msg.Time @msg.User:</strong> @msg.Text
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private bool isAuth;
+    private string? userName;
+
+    private HubConnection? hubConnection;
+    private string messageText = string.Empty;
+    private readonly List<ChatMessage> messages = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var user = HttpContextAccessor.HttpContext?.User;
+        isAuth = user?.Identity?.IsAuthenticated ?? false;
+
+        if (!isAuth)
+            return;
+
+        userName = user!.Identity!.Name ?? "Безымянный";
+
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/chathub"))
+            .WithAutomaticReconnect()
+            .Build();
+
+        hubConnection.On<string, string, string>("ReceiveMessage", (name, message, time) =>
+        {
+            messages.Add(new ChatMessage { User = name, Text = message, Time = time });
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    private async Task SendAsync()
+    {
+        if (hubConnection is not null && !string.IsNullOrWhiteSpace(messageText))
+        {
+            await hubConnection.SendAsync("SendMessage", messageText);
+            messageText = string.Empty;
+        }
+    }
+
+    private bool IsConnected => hubConnection?.State == HubConnectionState.Connected;
+
+    private class ChatMessage
+    {
+        public string User { get; set; } = "";
+        public string Text { get; set; } = "";
+        public string Time { get; set; } = "";
+    }
+}

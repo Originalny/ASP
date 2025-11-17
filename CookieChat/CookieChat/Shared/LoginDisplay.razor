@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@code {
+    private string? name;
+    private bool isAuth;
+
+    protected override void OnInitialized()
+    {
+        var user = HttpContextAccessor.HttpContext?.User;
+        isAuth = user?.Identity?.IsAuthenticated ?? false;
+        if (isAuth)
+            name = user!.Identity!.Name;
+    }
+}
+
+@if (isAuth)
+{
+    <span>Привет, @name!</span>
+    <form method="post" action="/api/logout" style="display:inline;">
+        <button type="submit">Выйти</button>
+    </form>
+}
+else
+{
+    <a href="/login">Войти</a>
+}
