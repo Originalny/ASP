@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D689D98-6D5A-4CF3-A6AD-E3AB08A85DA3}|SalesChartModule\\SalesChartModule.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorsalesapp\\saleschartmodule\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D689D98-6D5A-4CF3-A6AD-E3AB08A85DA3}|SalesChartModule\\SalesChartModule.csproj|solutionrelative:saleschartmodule\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C2A1491-C5F6-4158-8F76-90777C772896}|BlazorSalesApp\\BlazorSalesApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorsalesapp\\blazorsalesapp\\pages\\sales.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5C2A1491-C5F6-4158-8F76-90777C772896}|BlazorSalesApp\\BlazorSalesApp.csproj|solutionrelative:blazorsalesapp\\pages\\sales.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2A1491-C5F6-4158-8F76-90777C772896}|BlazorSalesApp\\BlazorSalesApp.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorsalesapp\\blazorsalesapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5C2A1491-C5F6-4158-8F76-90777C772896}|BlazorSalesApp\\BlazorSalesApp.csproj|solutionrelative:blazorsalesapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D689D98-6D5A-4CF3-A6AD-E3AB08A85DA3}|SalesChartModule\\SalesChartModule.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorsalesapp\\saleschartmodule\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D689D98-6D5A-4CF3-A6AD-E3AB08A85DA3}|SalesChartModule\\SalesChartModule.csproj|solutionrelative:saleschartmodule\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D689D98-6D5A-4CF3-A6AD-E3AB08A85DA3}|SalesChartModule\\SalesChartModule.csproj|d:\\downloads\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u043E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\blazorsalesapp\\saleschartmodule\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,17 +37,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SalesChartComponent.razor",
               "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\SalesChartModule\\SalesChartComponent.razor",
               "RelativeDocumentMoniker": "SalesChartModule\\SalesChartComponent.razor",
               "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\SalesChartModule\\SalesChartComponent.razor",
               "RelativeToolTip": "SalesChartModule\\SalesChartComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-16T17:02:56.87Z",
               "EditorCaption": ""
@@ -78,20 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Sales.razor",
               "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\BlazorSalesApp\\Pages\\Sales.razor",
               "RelativeDocumentMoniker": "BlazorSalesApp\\Pages\\Sales.razor",
               "ToolTip": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\BlazorSalesApp\\Pages\\Sales.razor",
               "RelativeToolTip": "BlazorSalesApp\\Pages\\Sales.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-16T16:55:04.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\Downloads\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u041E\u0431\u043C\u0435\u043D \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u044F\u043C\u0438\\BlazorSalesApp\\BlazorSalesApp\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorSalesApp\\_Imports.razor",
@@ -99,8 +99,7 @@
               "RelativeToolTip": "BlazorSalesApp\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T16:52:57.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T16:52:57.703Z"
             },
             {
               "$type": "Document",

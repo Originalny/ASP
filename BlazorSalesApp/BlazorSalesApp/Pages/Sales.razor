@@ -1,12 +1,11 @@
 ﻿@page "/sales"
-
-@using System.Reflection
+@using SalesChartModule   
 
 <h3>График продаж</h3>
 
 <p class="text-muted">
     Компонент графика подключается динамически через <code>DynamicComponent</code>.
-    Можно менять год — график будет обновляться.
+    При смене года график перерисовывается с новым параметром.
 </p>
 
 <div class="mb-3">
@@ -23,35 +22,58 @@
 
 @if (_isLoading)
 {
-    <div class="alert alert-info">Подготовка модуля графика...</div>
+    <div class="alert alert-info">Загрузка компонента графика...</div>
 }
 else if (_error is not null)
 {
     <div class="alert alert-danger">
-        Ошибка при загрузке модуля: @_error
+        Ошибка при инициализации графика: @_error
     </div>
 }
 else if (_chartType is not null)
 {
+    <!-- DynamicComponent создаёт наш SalesChartComponent и передаёт ему Year -->
     <DynamicComponent Type="_chartType" Parameters="_parameters" />
+}
+else
+{
+    <div class="alert alert-warning">
+        Компонент графика не найден. Проверь имя класса и namespace.
+    </div>
 }
 
 @code {
+    // Тип компонента графика, который будем создавать динамически
     private Type? _chartType;
+
+    // Флаг "идёт загрузка/инициализация"
     private bool _isLoading = true;
+
+    // Сообщение об ошибке, если что-то пошло не так
     private string? _error;
 
+    // Текущий выбранный год
     private int _year = DateTime.Now.Year;
+
+    // Список доступных годов для выбора
     private readonly int[] _years = new[] { 2022, 2023, 2024, 2025 };
 
+    // Параметры, которые передаются в DynamicComponent
+    // (в т.ч. Year для SalesChartComponent)
     private readonly Dictionary<string, object?> _parameters =
         new(StringComparer.OrdinalIgnoreCase);
 
     protected override void OnInitialized()
     {
+        // При первом заходе на страницу инициализируем компонент графика
         LoadChartComponent();
     }
 
+    /// <summary>
+    /// Инициализация компонента графика:
+    /// - получаем тип SalesChartComponent из текущей сборки
+    /// - задаём начальный параметр Year
+    /// </summary>
     private void LoadChartComponent()
     {
         _isLoading = true;
@@ -59,20 +81,10 @@ else if (_chartType is not null)
 
         try
         {
-            // Берём уже загруженную в приложение сборку с графиком.
-            // Если график лежит в отдельной библиотеке SalesChartModule,
-            // здесь будет её тип. Если в этом же проекте —
-            // можешь использовать typeof(ЛюбойКомпонентИзЭтойСборки).Assembly.
-            var asm = Assembly.Load("SalesChartModule"); // или typeof(YourChart).Assembly
+            // Берём тип компонента напрямую из проекта
+            _chartType = typeof(SalesChartComponent);
 
-            _chartType = asm.GetType("SalesChartModule.SalesChartComponent");
-            if (_chartType is null)
-            {
-                _error = "Компонент SalesChartComponent не найден в сборке.";
-                return;
-            }
-
-            // начальный параметр
+            // Передаём в компонент параметр Year
             _parameters["Year"] = _year;
         }
         catch (Exception ex)
@@ -86,13 +98,24 @@ else if (_chartType is not null)
         }
     }
 
+    /// <summary>
+    /// Вызывается каждый раз после изменения значения в select
+    /// благодаря @bind:after="OnYearChanged".
+    /// К этому моменту _year уже обновлён.
+    /// </summary>
     private void OnYearChanged()
     {
-        // @bind уже записал новое значение в _year
         if (_chartType is null)
-            return;
-
-        _parameters["Year"] = _year;
-        StateHasChanged();
+        {
+            // Если по какой-то причине ещё не инициализировали компонент –
+            // делаем это сейчас.
+            LoadChartComponent();
+        }
+        else
+        {
+            // Компонент уже "загружен", просто обновляем параметр
+            _parameters["Year"] = _year;
+            StateHasChanged();
+        }
     }
 }

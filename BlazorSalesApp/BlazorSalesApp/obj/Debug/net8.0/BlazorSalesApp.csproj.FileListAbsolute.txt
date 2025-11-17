@@ -33,3 +33,9 @@ D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\B
 D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\obj\Debug\net8.0\BlazorSalesApp.pdb
 D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\obj\Debug\net8.0\BlazorSalesApp.genruntimeconfig.cache
 D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\obj\Debug\net8.0\ref\BlazorSalesApp.dll
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\bin\Debug\net8.0\SalesChartModule.staticwebassets.runtime.json
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\bin\Debug\net8.0\SalesChartModule.staticwebassets.endpoints.json
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\bin\Debug\net8.0\SalesChartModule.dll
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\bin\Debug\net8.0\SalesChartModule.pdb
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\obj\Debug\net8.0\BlazorSalesApp.csproj.AssemblyReference.cache
+D:\Downloads\Курсовая Обмен сообщениями\BlazorSalesApp\BlazorSalesApp\obj\Debug\net8.0\BlazorSa.3A29BED1.Up2Date
